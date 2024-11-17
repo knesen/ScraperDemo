@@ -1208,9 +1208,9 @@ class simple_html_dom_node
 				}
 			}
 		} else {
-			if (is_object($debug_object)) {
-				$debug_object->debug_log(2, 'Invalid type: ', gettype($class));
-			}
+//			if (is_object($debug_object)) {
+//				$debug_object->debug_log(2, 'Invalid type: ', gettype($class));
+//			}
 		}
 	}
 
@@ -1221,9 +1221,9 @@ class simple_html_dom_node
 				return in_array($class, explode(' ', $this->class), true);
 			}
 		} else {
-			if (is_object($debug_object)) {
-				$debug_object->debug_log(2, 'Invalid type: ', gettype($class));
-			}
+//			if (is_object($debug_object)) {
+//				$debug_object->debug_log(2, 'Invalid type: ', gettype($class));
+//			}
 		}
 
 		return false;
